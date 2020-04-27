@@ -1,11 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+// import Head from '../src/components/Head';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
+    {/* <Head/> */}
     <App />
   </React.StrictMode>,
   document.getElementById('root')
