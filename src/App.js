@@ -2,6 +2,7 @@ import React from 'react';
 import Dropdown from "react-dropdown";
 import "react-dropdown/style.css";
 import './App.css';
+import Footer from './components/Footer';
 
 const options = [
   "",'Dresses','Shirts', 'Pants', 'Accessories'
@@ -223,7 +224,7 @@ updateImageURL(URL)
             <this.sideBar/>
             <this.mainBody/>
           </div>
-
+          <Footer/>
       </div>
     );
   }
