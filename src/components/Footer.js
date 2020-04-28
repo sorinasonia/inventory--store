@@ -47,7 +47,7 @@ class Footer extends React.Component {
 
     buttom() {
         return<div className="buttom">
-            <h2>Copyright&copy; Inventory2020 </h2>
+            <h2>Copyright &copy; Inventory 2020 </h2>
         </div>
     }
     
